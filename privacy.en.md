@@ -9,13 +9,14 @@ Ottercal has no sign-up and uses no advertising, analytics, or tracking tools. T
 - **Calendars**: used to show and edit your iPhone calendar events. Events stay in iOS Calendar and are never sent to the developer.
 - **Camera & Photos**: used only to read text from a picture to create an event. Text recognition runs on device; photos are not saved or sent.
 - **Microphone & Speech Recognition**: used only when you dictate an event. Speech is converted to text on device; audio is not saved or sent.
+- **Event reminders**: scheduled on your device; no server involved.
 - **Settings & memos**: stored on your device. Anniversaries sync between your own devices through your iCloud (Apple Account).
 
 ## 2. Sent to outside services (only when you use the feature)
 | Feature | Information sent | Recipient |
 |---|---|---|
 | Weather forecast | Current location coordinates | Apple WeatherKit, Open-Meteo |
-| Place search | The place name you type | Naver Local Search API |
+| Place search | The place name you type | Naver Local Search API, Apple Maps (MapKit) |
 | Google connection (optional) | Google sign-in, reading/writing your Google Tasks, creating/deleting Google calendars, photos you attach to events (Google Drive) | Google |
 
 Each recipient handles this information under its own privacy policy. None of it passes through a developer server.
