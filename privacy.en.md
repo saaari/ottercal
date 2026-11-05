@@ -17,13 +17,13 @@ Ottercal has no sign-up and uses no advertising, analytics, or tracking tools. T
 |---|---|---|
 | Weather forecast | Current location coordinates | Apple WeatherKit, Open-Meteo |
 | Place search | The place name you type | Naver Local Search API, Apple Maps (MapKit) |
-| Google connection (optional) | Google sign-in, reading/writing your Google Tasks, creating/deleting Google calendars, photos you attach to events (Google Drive) | Google |
+| Google connection (optional) | Google sign-in, reading/writing your Google Tasks, creating/deleting Google calendars, setting email reminders on Google Calendar events | Google |
 
 Each recipient handles this information under its own privacy policy. None of it passes through a developer server.
 
 ## 3. Google user data
 - Connecting Google is optional. Sign-in tokens are stored only on your device, and the app talks to Google directly.
-- Google Calendar events are shown through iOS Calendar (Settings › Calendar › Accounts). The in-app Google connection is used only to show and edit your Google Tasks and to create or delete Google calendars when you ask. Attached photos are uploaded only to your own Google Drive and only when you pick them (drive.file scope).
+- Google Calendar events are shown through iOS Calendar (Settings › Calendar › Accounts). The in-app Google connection is used only to show and edit your Google Tasks and to create or delete Google calendars when you ask, and, if you turn it on, to set email reminders on your Google Calendar events. Ottercal does not access Google Drive.
 - The developer does not receive, share, or sell Google data, and does not use it for advertising or to train AI models.
 - Ottercal's use and transfer of information received from Google APIs adheres to the **Google API Services User Data Policy**, including the Limited Use requirements.
 - You can disconnect in Settings or revoke access anytime at [Google Account permissions](https://myaccount.google.com/permissions).
